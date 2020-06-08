@@ -1,0 +1,54 @@
+.btn-primary {
+    background: #fd7e14;
+    border: 0px
+    padding-top: 15px;
+    padding-right: 40px;
+    padding-bottom: 15px;
+    padding-left: 40px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.btn-primary:hover {
+    background: #fd7e14;
+    border: 0;
+}
+
+.competitionBASIC h1 {
+    font-family: 'Poppins';
+    font-weight: 1000;
+    color: black;
+}
+
+.competitionBASIC p {
+    font-family: 'Poppins';
+    font-weight: 400;
+    color: black;
+}
+
+.navbar-nav .nav-link li a {
+    color: rgb(248, 247, 247);
+}
+
+.navbar-item active .nav-link li a:hover {
+    color: rgb(248, 247, 247);
+}
+
+
+
+section {
+    min-height: 400px;
+    
+}
+
+.quotes {
+    background-image: url('../images/competition/bg3.jpg');background-size: cover;background-position: top;
+  
+}
+
+@media only screen and (max-width: 760px) {
+    .btn-primary {
+        margin-top: 10px;
+        margin-left: 0px !important;
+    }
+}
